@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>Résumé</title>
   </head>
@@ -11,12 +15,7 @@
       <div class="resume">
         <div class="container">
           <div class="resume__block">
-            <h1 class="contact-info__header">John Smith</h1>
-            <h3 class="contact-info__sub-header">Full-Stack Developer</h3>
-
             <div class="contact_info_container fh">
-              <div class="contact-info__block"></div>
-
               <div class="contact-info__block contact-info__block--center">
                 <img
                   class="contact-info__avatar"
@@ -26,47 +25,37 @@
               </div>
 
               <div class="contact-info__block">
+                <h1 class="contact-info__header">Nazarii Reli</h1>
+                <h3 class="contact-info__sub-header">Full-Stack Developer</h3>
+              </div>
+              <div class="contact-info__block">
                 <a href="" rel="author" class="contact-info__item">
                   <div class="contact-info__item-icon-wrapper">
-                    <svg
-                      class="contact-info__item-icon"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 384 512"
-                    >
-                      <path
-                        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192
-                        0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535
-                        13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817
-                        80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
-                      ></path>
-                    </svg>
+                    <i class="fa-solid fa-address-book"></i>
                   </div>
-                  <span>Lviv, Ukraine</span>
+                  <span>Ternopil, Ukraine</span>
                 </a>
 
                 <a
-                  href="https://ua.linkedin.com/company/binary-studio_241166"
+                  href="mailto:nazartsya@gmail.com"
                   rel="author"
                   class="contact-info__item"
                 >
                   <div class="contact-info__item-icon-wrapper">
-                    <svg
-                      class="contact-info__item-icon"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 448 512"
-                    >
-                      <path
-                        d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9
-                        480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4
-                        416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96
-                        102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1
-                        243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9
-                        54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2
-                        0 79.7 44.3 79.7 101.9V416z"
-                      ></path>
-                    </svg>
+                    <i class="fa-solid fa-envelope"></i>
                   </div>
-                  <span>binary-studio</span>
+                  <span>nazartsya@gmail.com</span>
+                </a>
+
+                <a
+                  href="tel:+380689374757"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <i class="fa-solid fa-phone"></i>
+                  </div>
+                  <span>+380689374757</span>
                 </a>
               </div>
             </div>
@@ -94,10 +83,10 @@
                 </svg>
               </div>
               <p class="intro_text">
-                I'm John, a software developer driven by innovation and
-                problem-solving. With a strong background in computer science,
-                I'm dedicated to pushing boundaries and crafting elegant
-                solutions through code.
+                My name is Nazarii, I develop web applications, mostly on React,
+                Node.js and TypeScript. I like to create convenient and
+                functional interfaces, optimize code and learn new things. I
+                want to improve my programming skills and develop.
               </p>
             </div>
           </div>
@@ -108,7 +97,8 @@
             <div class="skills">
               <h3 class="skills__header">Skills</h3>
               <p class="skills__text">
-                Problem solving, Continuous Learning, Team Collaboration
+                HTML, CSS (SASS), JavaScript, TypeScript, PHP, MySQL,
+                PostgreSQL, Git, Node.js, React
               </p>
             </div>
           </div>
@@ -122,11 +112,9 @@
                 <div class="experiences__company">
                   <div class="experiences__company-header">
                     <span class="experiences__company-header-durability">
-                      2005-Present
+                      2024-Present
                     </span>
-                    <h3 class="experiences__company-header-name">
-                      Binary Studio
-                    </h3>
+                    <h3 class="experiences__company-header-name">Freelancer</h3>
                   </div>
 
                   <div class="experiences__company-project">
@@ -134,13 +122,12 @@
                       Full-Stack Developer
                     </span>
                     <h3 class="experiences__company-project-name">
-                      Hooman project
+                      Development of catalog sites
                     </h3>
                     <ul class="experiences__company-project-responsibilities">
-                      <li>Backend Architecture</li>
-                      <li>Frontend Development</li>
-                      <li>API Integration</li>
-                      <li>Code Maintenance</li>
+                      <li>Frontend</li>
+                      <li>Backend</li>
+                      <li>Integration with CRM</li>
                     </ul>
                   </div>
                 </div>
@@ -153,23 +140,24 @@
                     <span
                       class="additional-info__education-university-durability"
                     >
-                      2021
+                      2015-2021
                     </span>
                     <h3
                       class="additional-info__education-university-speciality"
                     >
-                      Full-Stack Development
+                      Politechnika Opolska
                     </h3>
                     <p class="additional-info__education-university-name">
-                      Binary Studio Academy
+                      Computer Engineering
                     </p>
                   </div>
                 </div>
 
                 <div class="additional-info__languages">
                   <h3 class="additional-info__languages-header">Languages</h3>
-                  <p class="additional-info__languages-item">English</p>
                   <p class="additional-info__languages-item">Ukrainian</p>
+                  <p class="additional-info__languages-item">English</p>
+                  <p class="additional-info__languages-item">Polish</p>
                 </div>
               </div>
             </div>
